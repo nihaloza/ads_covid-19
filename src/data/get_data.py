@@ -10,8 +10,8 @@ def get_johns_hopkins():
     ''' Get data by a git pull request, the source code has to be pulled first
         Result is stored in the predifined csv structure
     '''
-    git_pull = subprocess.Popen('git pull',
-                         cwd = os.path.dirname( 'data/raw/COVID-19/' ),
+    git_pull = subprocess.Popen(['git', 'clone' , "https://github.com/CSSEGISandData/COVID-19.git"],
+                         cwd = os.path.dirname( 'data/raw/' ),
                          shell = True,
                          stdout = subprocess.PIPE,
                          stderr = subprocess.PIPE )
