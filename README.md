@@ -3,6 +3,11 @@ ADS_COVID-19
 
 Applied Data Science
 
+Final Submission of COVID-19 analysis prototype. 
+The final result is a dynamic dashboard - which can be updated by one click - of COVID-19 data with filtered and calculated data sets like the current Doubling Rate of confirmed cases.
+Techniques used are REST Services, Python Pandas, scikit-learn, Facebook Prophet, Plotly, Dash.
+
+
 Project Organization
 ------------
 
